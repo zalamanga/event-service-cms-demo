@@ -1,0 +1,42 @@
+:root {
+    --primary-color: #e2c089;
+    --secondary-color: #ffffff;
+    --primary-font: "Playfair Display", serif;
+    --secondary-font: "Didact Gothic", sans-serif;
+}
+
+html,
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--secondary-font);
+}
+body {
+    scroll-behavior: smooth;
+    background-color: var(--secondary-color);
+}
+
+.img-table {
+    width: 80px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.video-table {
+    width: 250px;
+    height: 130px;
+    object-fit: cover;
+}
+
+.limit-char {
+    width: 300px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
